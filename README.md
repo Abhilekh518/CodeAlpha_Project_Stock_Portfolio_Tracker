@@ -55,10 +55,15 @@ python stock_portfolio_tracker.py
 - Switch between light/dark theme using Toggle Theme.
 - The USD to INR exchange rate is displayed at the top.
 
-9. Troubleshooting
-- Make sure your internet connection is active.
-- Check that the stock symbols you enter are valid.
-- If news doesn't load, verify your NewsAPI key and usage limits.
-- Errors will show as popups or console output.
 
-If you want me to prepare a ready-to-run .bat or shell script or package the project, just ask!
+
+
+How to run:
+Save this as stock_portfolio_tracker.py
+
+Install required libraries (run in terminal or cmd):
+pip install ttkbootstrap yfinance matplotlib requests
+
+
+Get your free NewsAPI key from https://newsapi.org/ and replace the NEWS_API_KEY in the code.
+python stock_portfolio_tracker.py
